@@ -11,7 +11,7 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
 
   /** Scrape the aliexpress product page for details */
   await page.goto(`https://www.aliexpress.com/item/${productId}.html`);
-  const aliExpressData = await page.evaluate(() => runParams);
+  const aliExpressData = await page.evaluate();
 
   const data = aliExpressData.data;
 
@@ -66,8 +66,8 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
       oneStarCount: data.titleModule.feedbackRating.oneStarNum
     },
     images:
-      (runParams.data.imageModule &&
-        runParams.data.imageModule.imagePathList) ||
+      (data.imageModule &&
+        data.imageModule.imagePathList) ||
       [],
     feedback: feedbackData,
     variants: Variants.get(data.skuModule),
