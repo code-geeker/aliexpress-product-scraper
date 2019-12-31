@@ -1,6 +1,6 @@
 {
-  "name": "aliexpress-product-scraper",
-  "version": "1.0.4",
+  "name": "@code-geeker/aliscrape",
+  "version": "1.0.0",
   "description": "Get Aliexpress product details as a json reponse including feedbacks, variants, description, images, etc.,",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "crawler",
     "spider"
   ],
-  "author": "Sudheer Ranga",
+  "author": "Elliot",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
