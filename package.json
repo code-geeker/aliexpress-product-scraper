@@ -1,15 +1,15 @@
 {
-  "name": "@code-geeker/aliscrape",
+  "name": "aliscrape",
   "version": "1.0.0",
   "description": "Get Aliexpress product details as a json reponse including feedbacks, variants, description, images, etc.,",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-"repository": {
-  "type": "git",
-  "url": "git@github.com:code-geeker/aliexpress-product-scraper.git"
-},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:code-geeker/aliexpress-product-scraper.git"
+  },
   "keywords": [
     "aliexpress",
     "aliexpress-crawler",
