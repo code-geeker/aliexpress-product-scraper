@@ -1,5 +1,5 @@
 {
-  "name": "aliscrape",
+  "name": "aliexpress-product-scraper",
   "version": "1.0.0",
   "description": "Get Aliexpress product details as a json reponse including feedbacks, variants, description, images, etc.,",
   "main": "index.js",
